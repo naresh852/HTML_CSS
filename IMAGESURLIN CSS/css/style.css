@@ -1,0 +1,12 @@
+body{
+  background: lightblue;
+  background-image: url("../img/img-1.jpg");
+  background: url("https://api.time.com/wp-content/uploads/2018/06/dinosaurs-jurassic-world-fact-check-3.jpg");
+}
+
+#title{
+  color:rgb(0, 4, 255);
+}
+.subtitle{
+  color:#5456b0;
+}

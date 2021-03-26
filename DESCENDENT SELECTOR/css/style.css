@@ -1,0 +1,25 @@
+h2{
+  color:green;
+}
+.subtitle{
+  color:black;
+}
+#about-me{
+  color:yellow;
+}
+/* basic selector*/
+h2 + a {
+  color:green;
+}
+/* sibling selector same parent required*/
+textarea ~ button{
+  color:yellow;
+}
+/* child selector*/
+/*ul > li {
+  color: blue;
+}
+/*descendent selector */
+ul li {
+  color: red;
+}

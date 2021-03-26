@@ -1,0 +1,10 @@
+body{
+  background: lightblue;
+}
+
+#title{
+  color:rgb(0, 4, 255);
+}
+.subtitle{
+  color:#5456b0;
+}

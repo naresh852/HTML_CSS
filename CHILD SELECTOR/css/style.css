@@ -1,0 +1,19 @@
+h2{
+  color:green;
+}
+.subtitle{
+  color:black;
+}
+#about-me{
+  color:yellow;
+}
+h2 + a {
+  color:green;
+}
+textarea ~ button{
+  color:yellow;
+}
+/* child selector*/
+ul > li {
+  color: blue;
+}

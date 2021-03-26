@@ -1,0 +1,15 @@
+body {
+  background-color: green;
+}
+p{
+  color: red;
+}
+h1{
+  color: yellow;
+}
+#ident1{
+  color: black;
+}
+#ident2{
+  color: white;
+}

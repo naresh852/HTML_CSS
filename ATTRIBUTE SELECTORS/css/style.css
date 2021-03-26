@@ -1,0 +1,42 @@
+h2:hover{
+  color:green;
+}
+/*.subtitle{
+  color:yellow;
+}*/
+/* ATTRIBUTE SELECTORS the above one also executes same */
+h2[class=subtitle] {
+  color:yellow;
+ }
+/*#about-me{
+  color:yellow;
+}*/
+/* basic selector*/
+h2 + a {
+  color:green;
+}
+/* sibling selector same parent required*/
+textarea ~ button{
+  color:yellow;
+}
+/* child selector*/
+/*ul > li {
+  color: blue;
+}
+/*descendent selector */
+ul li {
+  color: red;
+}
+/* ATTRIBUTE SELECTORS FOR IMAGE*/
+/* for images starting with ../img/ */
+img[src^="../img/"]{
+   border: 10px red solid;
+}
+/* for images ending with ../img/ */
+img[src$="../img/"]{
+   border: 10px red solid;
+}
+/* for images anywhere with ../img/ */
+img[src*="../img/"]{
+   border: 10px red solid;
+}

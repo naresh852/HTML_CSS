@@ -1,0 +1,24 @@
+h2:hover{
+  color:white;
+}
+.subtitle{
+  color:black;
+}
+#services {
+  color:yellow;
+}
+li:first-child{
+  color:red;
+}
+li:nth-child(2){
+  color:white;
+}
+li:only-child{
+  color:darkblue;
+}
+#goolelink:link{
+  color:yellow;
+}
+#googlelink:visited{
+  color:black;
+}
